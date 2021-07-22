@@ -55,7 +55,7 @@
                                     <div class="_3rnd1-_-_-client-guidelines-header--header-rightBlock">
                                         <div class="_1GF0Q-_-_-client-components-authorisation_button--authorisation_button-button _1IBKF-_-_-client-guidelines-header--header-authButton" data-qa="txtUsername">
                                             <div>
-                                                <div class="_2AYxY-_-_-client-components-authorisation_button--authorisation_button-userName _2sdhV-_-_-client-components-authorisation_button--authorisation_button-newHeader"><a href="http://localhost/ci_login_app/index.php"><span style="color: blue">Home page</a></div></div></div> </span>
+                                                <div class="_2AYxY-_-_-client-components-authorisation_button--authorisation_button-userName _2sdhV-_-_-client-components-authorisation_button--authorisation_button-newHeader"><a href="<?php echo base_url()."index.php"?>"><span style="color: blue">Home page</a></div></div></div> </span>
                                             </div>
                                         </div>
                                     </div>

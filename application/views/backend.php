@@ -39,7 +39,7 @@
                         <div class="_c9ce55-mainMenu">
                             <div>
                                 
-                                <div class="_c9ce55-item _c9ce55-myGrammarly"><span class="_c9ce55-myGrammarlyPreload"></span><a href="<?php echo base_url()."index.php/page/file" ?>" class="_c9ce55-link _c9ce55-active"><span data-name="My Grammarly">My Cek.KARYA.MU</span></a></div>
+                                <div class="_c9ce55-item _c9ce55-myGrammarly"><span class="_c9ce55-myGrammarlyPreload"></span><a href="<?php echo base_url()."index.php/page/file" ?>" class="_c9ce55-link _c9ce55-active"><span data-name="My Grammarly">Check Kata</span></a></div>
                                 <div class="_c9ce55-item _c9ce55-plagrisme"><span class="_c9ce55-profilePreload"></span><a  href="<?php echo base_url()."index.php/page/plagrisme" ?>" class="_c9ce55-link"><span data-name="Plagrisme">Check Plagrisme</span></a></div>
                                 <div class="_c9ce55-item _c9ce55-profile"><span class="_c9ce55-profilePreload"></span><a  href="<?php echo base_url()."index.php/page/profile" ?>" class="_c9ce55-link"><span data-name="Profile">Profile</span></a></div>
                                 <div class="_c9ce55-logout _c9ce55-item"><span class="_c9ce55-logoutPreload"></span><a data-name="logout-lnk" class="_c9ce55-link"> <a href="<?php echo base_url('index.php/auth/logout');?>"><span style="color: white">Log out</a><span data-name="username" class="_c9ce55-username"></span></div>

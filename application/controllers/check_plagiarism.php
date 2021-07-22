@@ -1,4 +1,4 @@
-<?php
+c<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 include "GoogleTranslate.php";
 
@@ -100,7 +100,7 @@ class check_plagiarism extends CI_Controller {
         $data['viewpage'] = 'hasil';
         $data['key'] = $in['key'];
         $data['gram'] = $uri_segments[6];
-        $data['basis'] = $uri_segments[7];
+        $data['basis'] = $uri_segments[6];
         // $data['gram'] => $in
         $this->load->view('backend', $data);
     }

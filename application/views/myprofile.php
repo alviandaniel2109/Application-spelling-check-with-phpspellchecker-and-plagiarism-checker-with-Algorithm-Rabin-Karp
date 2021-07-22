@@ -33,7 +33,7 @@
         </div>
     </div>
 </div>
-<script src="https://localhost/ci_login_app/assets/js/jquery.min.js"></script>
+<script src="<?php echo base_url()."assets/js/jquery.min.js"?>"></script>
 <script type="text/javascript">
     function myFunction(){
         if (confirm("Do you want to delete")){

@@ -11,12 +11,15 @@ class Auth extends CI_Controller {
         include_once APPPATH."libraries/google-api-php-client/contrib/Google_Oauth2Service.php";
         
         // Google Project API Credentials
-        $clientId = '570550667398-5otkst539i61v1l2pqr3f8n6evj5vcb4.apps.googleusercontent.com';
-        $clientSecret = 'PI1QhvAjCTjIEHi-8XC0Kc6w';
+       //  $clientId = '570550667398-5otkst539i61v1l2pqr3f8n6evj5vcb4.apps.googleusercontent.com';
+        // $clientSecret = 'PI1QhvAjCTjIEHi-8XC0Kc6w';
+        // $redirectUrl = base_url() . 'index.php/auth/';
+        $clientId = '804517781792-g1lq84fck94d5rvg7ev2v2lbf0a0pgfb.apps.googleusercontent.com';   
+        $clientSecret = '8Mik7kVqE4x0GzyBS97O7qrE';
         $redirectUrl = base_url() . 'index.php/auth/';
         
         $gClient = new Google_Client();
-        $gClient->setApplicationName('Grammer');
+        $gClient->setApplicationName('AplikasiProyekII');
         $gClient->setClientId($clientId);
         $gClient->setClientSecret($clientSecret);
         $gClient->setRedirectUri($redirectUrl);

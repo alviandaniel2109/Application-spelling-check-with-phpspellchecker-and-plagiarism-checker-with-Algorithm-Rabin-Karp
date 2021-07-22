@@ -1,8 +1,8 @@
 <div style="padding: 25px 10px 25px 39px;">
   <!-- <div class="jumbotron"> -->
-    <h1>Check Plagrisme</h1>
+    <h1>Check Plagrisme dengan Algoritma Rabin Karp</h1>
     <p>
-    <form action="<?= base_url();?>index.php/check_plagiarism/uploadx" method="post" id="target">
+    <form action="<?php echo base_url()."index.php/check_plagiarism/uploadx" ?>" method="post" id="target">
       <!-- <form action="" method="post" id="target"> -->
       <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">File Source</label>
